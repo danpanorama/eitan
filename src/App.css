@@ -13,26 +13,63 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
+.flexCol{
+  display: flex;
+  flex-direction: column;
+}
+.flexRow{
+  display: flex;
+  flex-direction: row;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bet{
+  justify-content: space-around;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+.w70{
+  width: 70%;
+  margin-top: 50px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.oneFood{
+  /* background-color: aliceblue; */
+  padding: 10px;
+  min-height: 200px;
+}
+
+.image{
+height: 50%;
+width: 50%;
+}
+.img{
+  height: 100%;
+  width: 100%;
+}
+
+.btn{
+  padding: 5px 10px 5px 10px ;
+  min-width: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  color: white;
+
+}
+.green{
+  background-color: yellowgreen;
+}
+.red{
+  background-color: orangered;
 }
